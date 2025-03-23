@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$padding_content: 15%;
+$border_line: 2px solid #E4E4E7;
+$header_footer_height: 6vh;
+$color_dark_grey: #484848;
+$color_dark_light: #95959C;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.landing-page {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: $header_footer_height;
+    padding-right: $padding_content;
+    padding-left: $padding_content;
+    border-bottom: $border_line;
+
+    display: flex;
+    align-items: center;
+
+    color: $color_dark_grey;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer {
+    height: $header_footer_height;
+    padding-right: $padding_content;
+    padding-left: $padding_content;
+    border-top: $border_line; 
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: $color_dark_light;
+    font-size: 12px;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+.bottom_group {
+    display: flex;
+}
+
+.bottom_group img {
+    width: 16px; 
+    height: 16px;
+    margin-right: 3px;
+}
+
+.eula {
+    margin-right: 30px;
+}
+
+.content {
+    padding-right: $padding_content;
+    padding-left: $padding_content;
+    text-align: center;
+}
+
+@media (max-width: 768px) { 
+    .header {
+        justify-content: center;
+        align-items: flex-end;
+        height: 12vh;
+        padding-bottom: 1vh;
+    }
+}
