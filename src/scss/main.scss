@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 $padding_content: 15%;
-$border_line: 2px solid #E4E4E7;
+$border_color: #E4E4E7;
+$border_line: 2px solid $border_color;
 $header_footer_height: 6vh;
 $color_dark_grey: #484848;
-$color_dark_light: #95959C;
+$color_light_grey: #95959C;
+$color_meduim_grey: #787880;
 
 body {
     font-family: 'Inter', sans-serif;
+    color: $color_dark_grey;
 }
 
 .landing-page {
@@ -42,7 +45,7 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    color: $color_dark_light;
+    color: $color_light_grey;
     font-size: 12px;
 }
 
@@ -68,6 +71,22 @@ body {
     padding-right: $padding_content;
     padding-left: $padding_content;
     text-align: center;
+}
+
+.sub_Title {
+    color: $color_meduim_grey;
+}
+
+.qr {
+    width: 30vh; 
+    height: 30vh;
+    border-radius: 3vh;
+    border: $border_line;
+}
+
+.button img {
+    width: 30px;
+    height: 30px;
 }
 
 @media (max-width: 768px) { 

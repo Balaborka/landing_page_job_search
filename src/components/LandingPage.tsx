@@ -6,7 +6,7 @@ import '../scss/main.scss';
 
 function LandingPage() {
     return (
-        <div className="landing-page">
+        <div className='landing-page'>
             <Header />
             <MainContent />
             <Footer />

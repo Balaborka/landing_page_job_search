@@ -2,5 +2,9 @@
     "headerTitle": "Jobobo",
     "supportButton": "support@jobobo.com",
     "eulaButton": "EULA",
-    "ppButton": "Privacy Policy"
+    "ppButton": "Privacy Policy",
+    "title": "The journey to your dream job begins here.",
+    "subTitle": "Unlock your career potential with AI-generated resumes and tailored job matches.",
+    "appStoreButton": "App Store",
+    "googlePlayButton": "Google Play"
 }
