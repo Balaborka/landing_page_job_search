@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from './Title'
 import Button from './Button'
+import text from '../text.json';
 
 function MainContent() {
     return (
@@ -8,8 +9,8 @@ function MainContent() {
             <Title />
             <img className='qr' src='/qr.png' alt='QR code' />
             <div className='app_buttons'>
-                <Button text='App Store' path='/appStore.png' />
-                <Button text='Google Play' path='/googlePlay.png' />
+                <Button text={text.appStoreButtonText} path='/appStore.png' link='https://www.apple.com/' />
+                <Button text={text.googlePlayButtonText} path='/googlePlay.png' link='https://www.google.com/' />
             </div>
         </div>
     );
