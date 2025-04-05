@@ -39,7 +39,7 @@ body {
     height: $header_footer_height;
     padding-right: $padding_content;
     padding-left: $padding_content;
-    border-top: $border_line; 
+    border-top: $border_line;
 
     display: flex;
     align-items: center;
@@ -57,12 +57,13 @@ body {
     display: flex;
     color: $color_light_grey;
 }
+
 .bottom_group:hover {
     color: $color_light_grey;
 }
 
 .bottom_group img {
-    width: 16px; 
+    width: 16px;
     height: 16px;
     margin-right: 3px;
 }
@@ -82,7 +83,7 @@ body {
 }
 
 .qr {
-    width: 30vh; 
+    width: 30vh;
     height: 30vh;
     border-radius: 3vh;
     border: $border_line;
@@ -118,7 +119,7 @@ body {
     padding: 0 10px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .header {
         justify-content: center;
         align-items: flex-end;

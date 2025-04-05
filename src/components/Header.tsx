@@ -3,9 +3,7 @@ import text from '../text.json';
 
 function Header() {
     return (
-        <a href='' className='header'>
-            <div>{text.headerTitle}</div>
-        </a>
+        <div className='header'>{text.headerTitle}</div>
     );
 }
 

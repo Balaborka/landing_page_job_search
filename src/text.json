@@ -1,10 +1,12 @@
 {
-    "headerTitle": "Jobobo",
-    "supportButton": "support@jobobo.com",
+    "headerTitle": "Jndr",
+    "supportButton": "support@jndr.com",
     "eulaButton": "EULA",
     "ppButton": "Privacy Policy",
     "title": "The journey to your dream job begins here.",
     "subTitle": "Unlock your career potential with AI-generated resumes and tailored job matches.",
     "appStoreButtonText": "App Store",
-    "googlePlayButtonText": "Google Play"
+    "googlePlayButtonText": "Google Play",
+    "EULA_title": "End-User License Agreement (EULA) for JNDR Application",
+    "privacy_policy_title": "Privacy Policy for Project JNDR (MVP Stage)"
 }
